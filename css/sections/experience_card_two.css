@@ -1,0 +1,192 @@
+.project-card-one {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.project-one-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+}
+
+.project-card-one:hover .project-one-inner {
+    transform: rotateY(180deg);
+}
+
+.project-one-front, .project-one-back{
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.project-one-front {
+    vertical-align: middle;
+    background-color: var(--gray);
+}
+
+.project-one-title {
+    margin-top: 80px;
+}
+
+.project-one-back {
+    transform: rotateY(180deg);
+    background-color: var(--gray);
+}
+
+.project-one-description {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.project-one-description-two {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.project-card-two {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.project-two-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+}
+
+.project-card-two:hover .project-two-inner {
+    transform: rotateY(180deg);
+}
+
+.project-two-front, .project-two-back{
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.project-two-front {
+    vertical-align: middle;
+    background-color: var(--gray);
+}
+
+.project-two-title {
+    margin-top: 65px;
+}
+
+.project-two-back {
+    transform: rotateY(180deg);
+    background-color: var(--gray);
+}
+
+.project-two-description {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.project-two-description-two {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.project-link-container {
+    margin-top: 5px;
+}
+
+.project-link-to-webapp {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: var(--blue);
+    cursor: pointer;
+    font-weight: 300;
+    transition: all 0.1s ease 0s;
+}
+
+.project-link-to-webapp:hover{
+    background: var(--blue_hover);
+}
+
+.project-card-three {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.project-three-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+}
+
+.project-card-three:hover .project-three-inner{
+    transform: rotateY(180deg);
+}
+
+.project-three-front, .project-three-back{
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.project-three-front{
+    vertical-align: middle;
+    background-color: var(--gray);
+}
+
+.project-three-title{
+    margin-top: 55px;
+}
+
+.project-three-subtitle{
+    margin-top: 3px;
+    max-width: 99.5%;
+}
+
+.project-three-back{
+    transform: rotateY(180deg);
+    background-color: var(--gray);
+}
+
+.project-three-description {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.project-three-description-two{
+    padding: 10px;
+    font-size: 14px;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('sections/header.css');
+@import url('sections/hero.css');
+@import url('sections/about.css');
+@import url('sections/experience.css');
+@import url('sections/experience_card_one.css');
+@import url('sections/experience_card_two.css');
+@import url('sections/footer.css');
+
+:root {
+    --montserrat: "Montserrat", sans-serif;
+    
+    --main-color: #303030;
+    --sub-color: linear-gradient(#2563eb, #7dd3fc);
+    
+    --blue: #1e40af;
+    --gray: #374151;
+    --blue_hover: #3b82f6;
+    --deep_sky: #0c4a6e;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 1280px;
+    background: var(--main-color);
+    font-family: var(--montserrat);
+    font-weight: 500;
+    color: white;
+    margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+    padding: 20px;
+    font-size: 30px;
+}
+

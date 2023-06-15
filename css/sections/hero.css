@@ -1,0 +1,108 @@
+.hero{
+    display: flex;
+    min-height: calc(100vh - 74px);
+    overflow: hidden;
+}
+
+.hero__content{
+    margin-top: 200px;
+    margin-left: 75px;
+}
+
+.hero__content h1{
+    font-size: 100px;
+    font-weight: 600;
+    background-image: var(--sub-color);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.hero__content p{
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.hero__buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+.hero__buttons button{
+    transition: all 0.1s ease 0s;
+}
+
+.hero__buttons button:hover{
+    background: var(--blue_hover);
+}
+
+.hi__button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: var(--blue);
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.resume__button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: var(--blue);
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.subtext{
+    color: #cbd5e1;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+
+.hero__image{
+    position: relative;
+    margin-left: 140px;
+}
+
+.hero__image img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+
+    --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+    --m:
+      left   var(--_i,0%) top    var(--_g),
+      bottom var(--_i,0%) left   var(--_g),
+      top    var(--_i,0%) right  var(--_g),
+      right  var(--_i,0%) bottom var(--_g);
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    filter: grayscale();
+    transition: .3s linear;
+}
+
+.hero__image img:hover{
+    --_i: 10%;
+    filter: grayscale(0);
+}
+
